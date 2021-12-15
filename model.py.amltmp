@@ -3,7 +3,7 @@ import numpy as np
 import sklearn
 import pickle
 from sklearn.linear_model import LinearRegression,LogisticRegression
-df=pd.read_csv('Users/CodeAsj/frt/data.csv')
+df=pd.read_csv('data.csv')
 def data_split(data,ratio):
     np.random.seed(42)
     shuffled=np.random.permutation(len(data))
