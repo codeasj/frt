@@ -1,7 +1,10 @@
 # COVID-19-Detector-using-MachineLearning-and-Flask
-+ Usages `python main.py`
++ Usages `python app.py`
 ## About
-  This project will detect corona virus Probability in terms of some features.
+The cases for the patients affected by COVID-19 or Coronavirus is increasing at an exponential rate. This leads to an increase in the patients who have visible symptoms who need to be tested for the virus. The idea is to find out the probability/chance of a patient being affected by the the virus by comparing and analyzing the symptoms from the previous confirmed cases of virus-affected patients.
+
+The patients who have a higher probability can be prioritized to have a checkup before the patients who have a lower probability. This measure will help detect positive cases in patients much faster than selecting and testing random patients.
+
 ## Requirements:-
 `Flask==1.1.2`
 
@@ -25,7 +28,8 @@
 
 `pandas>=0.19`
 
-In this project , it will detect corona virus Probability in terms of some features . Add you own data and train over that while using this application . 
+## Dataset:-
+The dataset used in this project is randomly generated and hence the predictions are not accurate. Using an actual dataset with real data involving affected patients will generate much better results. 
 
 ![..](im.png)
 ![..](image1.png)
