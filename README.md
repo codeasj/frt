@@ -31,5 +31,6 @@ The patients who have a higher probability can be prioritized to have a checkup 
 ## Dataset:-
 The dataset used in this project is randomly generated and hence the predictions are not accurate. Using an actual dataset with real data involving affected patients will generate much better results. 
 
+## Screenshots:-
 ![..](im.png)
 ![..](image1.png)
